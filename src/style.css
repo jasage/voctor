@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700');
+/*Header*/
+.header{
+    background-color: rgb(235, 83, 70);
+    width: 100%;
+    height: 90px;
+    margin-bottom: 100px;
+}
+.ht{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    height: 100%;
+    font-family: "PT Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+}
+.icon1{
+    background: url(images/icon/icon1.png) no-repeat;
+    width: 40px;
+    height: 51px;
+    margin-right: 10px;
+}
+/*Main Container*/
+.container{
+    padding: 0 150px;
+}
+/*Class*/
+.minimum, .middle, .premium:hover{
+    cursor: pointer;
+}
+.cl{
+    display: flex;
+    justify-content: space-around;
+}
+.cl div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.hc{
+    display: block;
+    background-color: rgb(37, 46, 57);
+    font-size: 22px;
+    width: 210px;
+    height: 33px;
+    font-family: "PT Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.cp{
+    display: block;
+    background-color: rgb(235, 83, 70);
+    width: 314px;
+    height: 32px;
+    margin: 70px auto 10px;
+    font-size: 22px;
+    font-family: "PTSans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
+}
+.chosen{
+    display: inline-block;
+    border-right: 16px solid #FFF;
+    border-left: 16px solid #FFF;
+    border-top: 24px solid rgb(235, 83, 70);
+}
+/*Details Info Order*/
+.detail{
+    display: flex;
+    justify-content: space-around;
+}
+.view{
+    margin-bottom: 20px;
+}
+/*Parts sprite icon*/
+.parts-img{
+    max-width: 670px;
+    height: 160px;
+}
+.parts-img>div{
+    position: relative;
+    margin: 0 5px;
+    float: left;
+    height: 80px;
+}
+.parts-img>div p{
+    position: absolute;
+    font-size: 12px;
+    font-family: "PT Sans";
+    color: rgb(235, 83, 70);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+.partial{
+    display: inline-block;
+    background-image: url(images/partial-sprite.png);
+}
+.af{
+    background-position: -206px 0px;
+    width: 65px;
+    height: 35px;
+}
+.bb{
+  background-position: -73px -123px;
+  width: 89px;
+  height: 27px;
+}
+.bed{
+  background-position: 0px 0px;
+  width: 90px;
+  height: 65px;
+}
+.fb{
+  background-position: -73px -150px;
+  width: 88px;
+  height: 27px;
+}
+.fh{
+  background-position: 0px -123px;
+  width: 73px;
+  height: 56px;
+}
+.fw{
+  background-position: -206px -35px;
+  width: 58px;
+  height: 31px;
+}
+.h{
+  background-position: -90px -49px;
+  width: 70px;
+  height: 13px;
+}
+.l{
+  background-position: -90px 0px;
+  width: 116px;
+  height: 49px;
+}
+.m{
+  background-position: 0px -179px;
+  width: 67px;
+  height: 33px;
+}
+.ph{
+  background-position: 0px -65px;
+  width: 75px;
+  height: 58px;
+}
+.pw{
+  background-position: -206px -66px;
+  width: 58px;
+  height: 31px;
+}
+.r{
+  background-position: -75px -65px;
+  width: 120px;
+  height: 36px;
+}
+/*Plans Menu*/
+.plans{
+    position: relative;
+    width: 200px;
+    height: 224px;
+    border-left: 1px solid black;
+}
+.plans li{
+    font-size: 16px;
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    line-height: 2;
+    padding-left: 16px;
+    cursor: pointer;
+}
+.active{
+    color: rgb(255, 255, 255);
+    background-color: rgb(235, 83, 70);
+    
+}
+.active:before{
+    content: '';
+    position: absolute;
+    left: -13px;
+    border-right: 13px solid rgb(235, 83, 70);
+    border-top: 16px solid #FFF;
+    border-bottom: 16px solid #FFF;
+    
+}
+.parts{
+    background-color: rgb(37, 46, 57);
+    color: rgb(255, 255, 255);
+}
+.parts:before{
+    content: '';
+    position: absolute;
+    left: -13px;
+    border-right: 13px solid rgb(37, 46, 57);
+    border-top: 16px solid #FFF;
+    border-bottom: 16px solid #FFF;
+}
+.da{
+    display: inline-block;
+    background: url(images/icon/da.png) no-repeat;
+    width: 16px;
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+.dropdown{
+    position: absolute;
+    color: black;
+    left: 0px;
+    border-left: 1px solid black;
+}
+.dropdown>li{
+    font-size: 14px;
+    padding-left: 29px;
+}
+/*Sprite Main Image*/
+.citroen{
+    background-image: url(images/citroen-sprite.png);
+    width: 670px;
+    height: 360px;
+}
+.mazda{
+    background-image: url(images/mazda-sprite.png);
+    width: 670px;
+    height: 360px;
+}
+.mercedes{
+    background-image: url(images/mercedes-sprite.png);
+    width: 670px;
+    height: 360px;
+}
+.back_bump{
+  background-position: -670px 0px;
+}
+.backdoors{
+  background-position: -1340px -360px;
+}
+.doors{
+  background-position: 0px -360px;
+}
+.front_bump{
+  background-position: -670px -360px;
+}
+.full{
+  background-position: 0px -720px;
+}
+.hood{
+  background-position: -670px -720px;
+}
+.lights{
+  background-position: -1340px 0px;
+}
+.mini{
+  background-position: 0px 0px;
+}
+.standart{
+  background-position: -1340px -720px;
+}
+.standart1{
+  background-position: 0px -1080px;
+}
+.standart2{
+  background-position: -670px -1080px;
+}
+.standart3{
+  background-position: -1340px -1080px;
+}
+.th_in{
+  background-position: 0px -1440px;
+}
+.th_out{
+  background-position: -670px -1440px;
+}
+/*Order Call Back*/
+.order{
+    font-size: 22px;
+    font-family: "PT Sans";
+    color: rgb(235, 83, 70);
+    line-height: 1.2;
+    margin-top: 50px;
+}
+.price>p{
+    display: inline-block;
+    border-top: 1px solid black;
+}
+.price>p>span:first-child{
+  font-size: 16px;
+  font-family: "PT Sans";
+  color: rgb(37, 46, 57);
+  line-height: 1.2;
+  text-align: left;
+}
+.price>p>span:last-child{
+    text-align: right;
+}
+.callme{
+    float: right;
+    background-color: rgb(37, 46, 57);
+    width: 264px;
+    height: 40px;
+    font-size: 22px;
+    font-family: "PT Sans";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media (max-width: 1180px){
+    .container{
+        padding: 0;
+    }
+}

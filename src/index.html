@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Service</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <div class="ht">
+            <span class="icon1"></span>Цены и варианты защиты
+        </div>
+    </div>
+    <div class="container">
+        <div class="cl">
+            <div class="minimum">
+               <span class="hc">Класс Mini</span>
+               <img src="images/citroen.png" alt="Класс Mini">
+               <span class="cp">Рассчитать стоимость</span>
+            </div>
+            <div class="middle">
+               <span class="hc">Средний Класс</span>
+               <img src="images/mazda.png" alt="Средний Класс">
+               <span class="cp">Рассчитать стоимость</span>
+            </div>
+            <div class="premium">
+                <span class="hc">Премиум Класс</span>
+                <img src="images/mercedes.png" alt="Премиум Класс">
+                <span class="cp">Рассчитать стоимость</span>
+                <span class="chosen"></span>
+            </div>
+        </div>
+        <div class="detail">
+           <div class="view">
+                <div class="main-pic"></div>
+                <div class="parts-img"></div>
+                <div class="order">
+                    <span>Цена:</span>
+                    <div class="price"> 
+                        <p>
+                            <span>Материалы + работа</span>
+                            <span>7000 руб.</span>
+                        </p>
+                        <button class="callme">Позвоните мне</button>
+                    </div>
+                </div>
+            </div>
+            <ul class="plans">
+                <li data-plan="mini">Минимальный</li>
+                <li data-plan="standart">Стандарт</li>
+                <li data-plan="standart1">Стандарт+</li>
+                <li data-plan="standart2">Стандарт++</li>
+                <li data-plan="standart3">Стандарт+++</li>
+                <li data-plan="full">Целиком</li>
+                <li class="parts">Частями <span class="da"></span>
+                    <ul class="dropdown" hidden>
+                        <li data-plan="lights">Оптика</li>
+                        <li data-plan="th_in">Пороги внутренние</li>
+                        <li data-plan="th_out">Пороги наружные</li>
+                        <li data-plan="doors">Двери (4шт)</li>
+                        <li data-plan="backdoors">Задние Крылья</li>
+                        <li data-plan="hood">Капот</li>
+                        <li data-plan="front_bump">Передний Бампер</li>
+                        <li data-plan="back_bump">Задний Бампер</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
